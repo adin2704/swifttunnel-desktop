@@ -1,0 +1,9 @@
+# Language detection rules
+# Normalize line endings
+public/*.html linguist-vendored
+**/*.py linguist-detectable
+* text=auto eol=lf
+*.gif binary
+
+*.yml linguist-detectable=false
+*.htm linguist-vendored
